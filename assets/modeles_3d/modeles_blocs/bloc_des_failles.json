@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "corrupted_portal:block/bloc_des_failles"
+  }
+}

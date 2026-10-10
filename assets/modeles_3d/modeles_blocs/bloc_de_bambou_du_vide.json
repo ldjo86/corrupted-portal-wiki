@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "corrupted_portal:block/bloc_de_bambou_du_vide_top",
+    "side": "corrupted_portal:block/bloc_de_bambou_du_vide"
+  }
+}

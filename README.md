@@ -1,6 +1,6 @@
 # Corrupted Portal: The Void World — Wiki
 
-> Statut : documentation locale, prête à publier.
+> Documentation publiée sur GitHub, avec modèle 3D et texture référencés.
 > Analyse des JAR universels 0.1.3 réalisée : douze modules MC 1.21 et cinq MC 26. Attention : CurseForge affiche 0.1.1. Complété par le document local de livraison 0.1.3.
 
 Le monde du Vide propose des failles, portails, monstres corrompus, équipement Rift et un compagnon évolutif.
@@ -8,6 +8,14 @@ Le monde du Vide propose des failles, portails, monstres corrompus, équipement 
 **CurseForge :** https://www.curseforge.com/minecraft/mc-mods/corrupted-portal-the-void-world
 
 **Type :** fabric · **Archive :** CurseForge 0.1.1 ; build locale 0.1.3, MC 1.21.x et 26.x.
+
+## Vrais modèles 3D
+
+Les entités et les blocs sont maintenant visibles sous forme de rendus 3D réalisés **avec la géométrie et les textures du vrai mod** ; les planches UV sont conservées séparément pour les créateurs de contenu.
+
+**[5 modèles de blocs : galerie détaillée](docs/Modeles-3D.md)**
+
+<a href="docs/Modeles-3D.md"><img src="assets/modeles_3d/planche-blocs.png" alt="Aperçus 3D des modèles réels du mod" width="680"></a>
 
 ## Sommaire
 
@@ -19,7 +27,7 @@ Le monde du Vide propose des failles, portails, monstres corrompus, équipement 
 - [Sources et limites](docs/Sources-et-verification.md)
 - [English overview](docs/English-Overview.md)
 
-Télécharge les fichiers d'installation directement sur CurseForge. Les JAR, ZIP et textures ne sont pas redistribués dans ce wiki.
+Télécharge les JAR/ZIP d'installation directement sur CurseForge. Ce wiki fournit uniquement des éléments de documentation, ainsi que des **extraits des géométries et textures d'origine** pour illustrer les modèles, sans redistribuer le mod complet.
 
 
 ## Ressources réelles extraites des archives

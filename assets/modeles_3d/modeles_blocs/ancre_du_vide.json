@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "corrupted_portal:block/ancre_du_vide_bottom",
+    "side": "corrupted_portal:block/ancre_du_vide_side",
+    "top": "corrupted_portal:block/ancre_du_vide_top"
+  }
+}

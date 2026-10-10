@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "corrupted_portal:block/allium_du_vide"
+  }
+}
