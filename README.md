@@ -9,7 +9,11 @@ Le monde du Vide propose des failles, portails, monstres corrompus, équipement 
 
 **Type :** fabric · **Archive :** CurseForge 0.1.1 ; build locale 0.1.3, MC 1.21.x et 26.x.
 
-## Vrais modèles 3D
+## Modèles 3D issus du JAR
+
+[Diagnostic UV et géométrie](docs/Diagnostic-UV-2026-10-10.md) — pourquoi certaines textures étaient mal appliquées et pourquoi l'ancienne géométrie Blockbench diffère du JAR.
+
+
 
 Les entités et les blocs sont maintenant visibles sous forme de rendus 3D réalisés **avec la géométrie et les textures du vrai mod** ; les planches UV sont conservées séparément pour les créateurs de contenu.
 
