@@ -1,0 +1,2849 @@
+{
+  "source": "corrupted-portal-0.1.3-mc1.21-universel.jar",
+  "variant": "1.21.11",
+  "mod_id": "corrupted_portal",
+  "recipes": [
+    {
+      "id": "corrupted_portal:ancre_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:ancre_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "# = minecraft:obsidian",
+        "C = corrupted_portal:corrupted_stone",
+        "L = corrupted_portal:lingot_des_failles",
+        "V = corrupted_portal:coeur_du_vide"
+      ],
+      "pattern": [
+        "#C#",
+        "LVL",
+        "#C#"
+      ],
+      "name": "Void Anchor",
+      "source_path": "data/corrupted_portal/recipe/ancre_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:barriere_d_acacia_dechire",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:barriere_d_acacia_dechire",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_d_acacia_dechire",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PSP",
+        "PSP"
+      ],
+      "name": "Barriere d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/barriere_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:barriere_de_bouleau_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:barriere_de_bouleau_spectral",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_bouleau_spectral",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PSP",
+        "PSP"
+      ],
+      "name": "Barriere de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/barriere_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:barriere_de_cerisier_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:barriere_de_cerisier_spectral",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_cerisier_spectral",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PSP",
+        "PSP"
+      ],
+      "name": "Barriere de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/barriere_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:barriere_de_jungle_abyssale",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:barriere_de_jungle_abyssale",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_jungle_abyssale",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PSP",
+        "PSP"
+      ],
+      "name": "Barriere de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/barriere_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:barriere_de_mangrove_ombre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:barriere_de_mangrove_ombre",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_mangrove_ombre",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PSP",
+        "PSP"
+      ],
+      "name": "Barriere de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/barriere_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:barriere_de_pin_cendre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:barriere_de_pin_cendre",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_pin_cendre",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PSP",
+        "PSP"
+      ],
+      "name": "Barriere de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/barriere_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:barriere_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:barriere_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_du_vide",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PSP",
+        "PSP"
+      ],
+      "name": "Barriere du Vide",
+      "source_path": "data/corrupted_portal/recipe/barriere_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:batons_de_bambou_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:baton_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "B = corrupted_portal:bambou_du_vide"
+      ],
+      "pattern": [
+        "B",
+        "B"
+      ],
+      "name": "Baton du Vide",
+      "source_path": "data/corrupted_portal/recipe/batons_de_bambou_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:batons_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:baton_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "P = #corrupted_portal:planches_du_vide"
+      ],
+      "pattern": [
+        "P",
+        "P"
+      ],
+      "name": "Baton du Vide",
+      "source_path": "data/corrupted_portal/recipe/batons_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:ble_depuis_botte_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:ble_du_vide",
+      "quantity": 9,
+      "inputs": [
+        "corrupted_portal:botte_de_ble_du_vide"
+      ],
+      "pattern": [],
+      "name": "Ble du Vide",
+      "source_path": "data/corrupted_portal/recipe/ble_depuis_botte_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:bloc_de_bambou_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bloc_de_bambou_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "B = corrupted_portal:bambou_du_vide"
+      ],
+      "pattern": [
+        "BBB",
+        "BBB",
+        "BBB"
+      ],
+      "name": "Bloc de bambou du Vide",
+      "source_path": "data/corrupted_portal/recipe/bloc_de_bambou_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:bloc_de_laminaire_sechee_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bloc_de_laminaire_sechee_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "K = corrupted_portal:laminaire_sechee_du_vide"
+      ],
+      "pattern": [
+        "KKK",
+        "KKK",
+        "KKK"
+      ],
+      "name": "Bloc de laminaire sechee du Vide",
+      "source_path": "data/corrupted_portal/recipe/bloc_de_laminaire_sechee_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:bloc_de_rappel",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bloc_de_rappel",
+      "quantity": 1,
+      "inputs": [
+        "C = corrupted_portal:cristal_de_rappel",
+        "O = corrupted_portal:obsidienne_du_vide",
+        "P = corrupted_portal:pierre_du_vide"
+      ],
+      "pattern": [
+        "OPO",
+        "PCP",
+        "OPO"
+      ],
+      "name": "Void Recall Altar",
+      "source_path": "data/corrupted_portal/recipe/bloc_de_rappel.json"
+    },
+    {
+      "id": "corrupted_portal:bloc_des_failles",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bloc_des_failles",
+      "quantity": 1,
+      "inputs": [
+        "I = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "III",
+        "III",
+        "III"
+      ],
+      "name": "Rift Block",
+      "source_path": "data/corrupted_portal/recipe/bloc_des_failles.json"
+    },
+    {
+      "id": "corrupted_portal:bois_d_acacia_dechire",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_d_acacia_dechire",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_d_acacia_dechire"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/bois_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:bois_de_bouleau_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_de_bouleau_spectral",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_de_bouleau_spectral"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/bois_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:bois_de_cerisier_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_de_cerisier_spectral",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_de_cerisier_spectral"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/bois_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:bois_de_jungle_abyssale",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_de_jungle_abyssale",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_de_jungle_abyssale"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/bois_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:bois_de_mangrove_ombre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_de_mangrove_ombre",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_de_mangrove_ombre"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/bois_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:bois_de_pin_cendre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_de_pin_cendre",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_de_pin_cendre"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/bois_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:bois_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_du_vide"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois du Vide",
+      "source_path": "data/corrupted_portal/recipe/bois_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:bois_ecorce_d_acacia_dechire",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_ecorce_d_acacia_dechire",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_ecorcee_d_acacia_dechire"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois ecorce d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/bois_ecorce_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:bois_ecorce_de_bouleau_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_ecorce_de_bouleau_spectral",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_ecorcee_de_bouleau_spectral"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois ecorce de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/bois_ecorce_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:bois_ecorce_de_cerisier_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_ecorce_de_cerisier_spectral",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_ecorcee_de_cerisier_spectral"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois ecorce de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/bois_ecorce_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:bois_ecorce_de_jungle_abyssale",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_ecorce_de_jungle_abyssale",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_ecorcee_de_jungle_abyssale"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois ecorce de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/bois_ecorce_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:bois_ecorce_de_mangrove_ombre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_ecorce_de_mangrove_ombre",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_ecorcee_de_mangrove_ombre"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois ecorce de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/bois_ecorce_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:bois_ecorce_de_pin_cendre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_ecorce_de_pin_cendre",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_ecorcee_de_pin_cendre"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois ecorce de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/bois_ecorce_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:bois_ecorce_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bois_ecorce_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "X = corrupted_portal:buche_ecorcee_du_vide"
+      ],
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "name": "Bois ecorce du Vide",
+      "source_path": "data/corrupted_portal/recipe/bois_ecorce_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:bol_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:bol_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "P = #corrupted_portal:planches_du_vide"
+      ],
+      "pattern": [
+        "P P",
+        " P "
+      ],
+      "name": "Bol du Vide",
+      "source_path": "data/corrupted_portal/recipe/bol_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:botte_de_ble_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:botte_de_ble_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "W = corrupted_portal:ble_du_vide"
+      ],
+      "pattern": [
+        "WWW",
+        "WWW",
+        "WWW"
+      ],
+      "name": "Botte de ble du Vide",
+      "source_path": "data/corrupted_portal/recipe/botte_de_ble_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:bouton_d_acacia_dechire",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:bouton_d_acacia_dechire",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:planches_d_acacia_dechire"
+      ],
+      "pattern": [],
+      "name": "Bouton d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/bouton_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:bouton_de_bouleau_spectral",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:bouton_de_bouleau_spectral",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:planches_de_bouleau_spectral"
+      ],
+      "pattern": [],
+      "name": "Bouton de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/bouton_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:bouton_de_cerisier_spectral",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:bouton_de_cerisier_spectral",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:planches_de_cerisier_spectral"
+      ],
+      "pattern": [],
+      "name": "Bouton de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/bouton_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:bouton_de_jungle_abyssale",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:bouton_de_jungle_abyssale",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:planches_de_jungle_abyssale"
+      ],
+      "pattern": [],
+      "name": "Bouton de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/bouton_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:bouton_de_mangrove_ombre",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:bouton_de_mangrove_ombre",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:planches_de_mangrove_ombre"
+      ],
+      "pattern": [],
+      "name": "Bouton de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/bouton_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:bouton_de_pin_cendre",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:bouton_de_pin_cendre",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:planches_de_pin_cendre"
+      ],
+      "pattern": [],
+      "name": "Bouton de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/bouton_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:bouton_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:bouton_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:planches_du_vide"
+      ],
+      "pattern": [],
+      "name": "Bouton du Vide",
+      "source_path": "data/corrupted_portal/recipe/bouton_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:charbon_de_buche_du_vide",
+      "type": "smelting",
+      "result": "corrupted_portal:charbon_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : #corrupted_portal:buches_du_vide"
+      ],
+      "pattern": [],
+      "name": "Charbon de bois du Vide",
+      "source_path": "data/corrupted_portal/recipe/charbon_de_buche_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:coeur_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:coeur_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "# = corrupted_portal:perle_du_vide",
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "###",
+        "#X#",
+        "###"
+      ],
+      "name": "Void Heart",
+      "source_path": "data/corrupted_portal/recipe/coeur_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:coffre_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:coffre_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "C = minecraft:chest",
+        "V = corrupted_portal:bloc_des_failles"
+      ],
+      "pattern": [
+        "VVV",
+        "VCV",
+        "VVV"
+      ],
+      "name": "Void Chest",
+      "source_path": "data/corrupted_portal/recipe/coffre_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:cristal_de_rappel",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:cristal_de_rappel",
+      "quantity": 1,
+      "inputs": [
+        "A = minecraft:amethyst_shard",
+        "L = corrupted_portal:lingot_des_failles",
+        "O = minecraft:obsidian",
+        "P = corrupted_portal:perle_du_vide"
+      ],
+      "pattern": [
+        "APA",
+        "OPO",
+        "ALA"
+      ],
+      "name": "Recall Crystal",
+      "source_path": "data/corrupted_portal/recipe/cristal_de_rappel.json"
+    },
+    {
+      "id": "corrupted_portal:cristal_de_rappel_charge",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:cristal_de_rappel_charge",
+      "quantity": 1,
+      "inputs": [
+        "C = corrupted_portal:cristal_de_rappel",
+        "E = minecraft:echo_shard",
+        "G = minecraft:ghast_tear",
+        "L = corrupted_portal:lingot_des_failles",
+        "O = minecraft:crying_obsidian",
+        "V = corrupted_portal:coeur_du_vide"
+      ],
+      "pattern": [
+        "GVG",
+        "ECE",
+        "OLO"
+      ],
+      "name": "Charged Recall Crystal",
+      "source_path": "data/corrupted_portal/recipe/cristal_de_rappel_charge.json"
+    },
+    {
+      "id": "corrupted_portal:dalle_d_acacia_dechire",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:dalle_d_acacia_dechire",
+      "quantity": 6,
+      "inputs": [
+        "P = corrupted_portal:planches_d_acacia_dechire"
+      ],
+      "pattern": [
+        "PPP"
+      ],
+      "name": "Dalle d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/dalle_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:dalle_de_bouleau_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:dalle_de_bouleau_spectral",
+      "quantity": 6,
+      "inputs": [
+        "P = corrupted_portal:planches_de_bouleau_spectral"
+      ],
+      "pattern": [
+        "PPP"
+      ],
+      "name": "Dalle de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/dalle_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:dalle_de_cerisier_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:dalle_de_cerisier_spectral",
+      "quantity": 6,
+      "inputs": [
+        "P = corrupted_portal:planches_de_cerisier_spectral"
+      ],
+      "pattern": [
+        "PPP"
+      ],
+      "name": "Dalle de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/dalle_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:dalle_de_jungle_abyssale",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:dalle_de_jungle_abyssale",
+      "quantity": 6,
+      "inputs": [
+        "P = corrupted_portal:planches_de_jungle_abyssale"
+      ],
+      "pattern": [
+        "PPP"
+      ],
+      "name": "Dalle de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/dalle_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:dalle_de_mangrove_ombre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:dalle_de_mangrove_ombre",
+      "quantity": 6,
+      "inputs": [
+        "P = corrupted_portal:planches_de_mangrove_ombre"
+      ],
+      "pattern": [
+        "PPP"
+      ],
+      "name": "Dalle de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/dalle_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:dalle_de_pin_cendre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:dalle_de_pin_cendre",
+      "quantity": 6,
+      "inputs": [
+        "P = corrupted_portal:planches_de_pin_cendre"
+      ],
+      "pattern": [
+        "PPP"
+      ],
+      "name": "Dalle de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/dalle_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:dalle_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:dalle_du_vide",
+      "quantity": 6,
+      "inputs": [
+        "P = corrupted_portal:planches_du_vide"
+      ],
+      "pattern": [
+        "PPP"
+      ],
+      "name": "Dalle du Vide",
+      "source_path": "data/corrupted_portal/recipe/dalle_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:epee_en_bois_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:epee_en_bois_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "P = #corrupted_portal:planches_du_vide",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "P",
+        "P",
+        "S"
+      ],
+      "name": "Epee en bois du Vide",
+      "source_path": "data/corrupted_portal/recipe/epee_en_bois_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:escalier_d_acacia_dechire",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:escalier_d_acacia_dechire",
+      "quantity": 4,
+      "inputs": [
+        "P = corrupted_portal:planches_d_acacia_dechire"
+      ],
+      "pattern": [
+        "P  ",
+        "PP ",
+        "PPP"
+      ],
+      "name": "Escalier d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/escalier_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:escalier_de_bouleau_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:escalier_de_bouleau_spectral",
+      "quantity": 4,
+      "inputs": [
+        "P = corrupted_portal:planches_de_bouleau_spectral"
+      ],
+      "pattern": [
+        "P  ",
+        "PP ",
+        "PPP"
+      ],
+      "name": "Escalier de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/escalier_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:escalier_de_cerisier_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:escalier_de_cerisier_spectral",
+      "quantity": 4,
+      "inputs": [
+        "P = corrupted_portal:planches_de_cerisier_spectral"
+      ],
+      "pattern": [
+        "P  ",
+        "PP ",
+        "PPP"
+      ],
+      "name": "Escalier de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/escalier_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:escalier_de_jungle_abyssale",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:escalier_de_jungle_abyssale",
+      "quantity": 4,
+      "inputs": [
+        "P = corrupted_portal:planches_de_jungle_abyssale"
+      ],
+      "pattern": [
+        "P  ",
+        "PP ",
+        "PPP"
+      ],
+      "name": "Escalier de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/escalier_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:escalier_de_mangrove_ombre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:escalier_de_mangrove_ombre",
+      "quantity": 4,
+      "inputs": [
+        "P = corrupted_portal:planches_de_mangrove_ombre"
+      ],
+      "pattern": [
+        "P  ",
+        "PP ",
+        "PPP"
+      ],
+      "name": "Escalier de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/escalier_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:escalier_de_pin_cendre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:escalier_de_pin_cendre",
+      "quantity": 4,
+      "inputs": [
+        "P = corrupted_portal:planches_de_pin_cendre"
+      ],
+      "pattern": [
+        "P  ",
+        "PP ",
+        "PPP"
+      ],
+      "name": "Escalier de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/escalier_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:escalier_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:escalier_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "P = corrupted_portal:planches_du_vide"
+      ],
+      "pattern": [
+        "P  ",
+        "PP ",
+        "PPP"
+      ],
+      "name": "Escalier du Vide",
+      "source_path": "data/corrupted_portal/recipe/escalier_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:etabli_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:etabli_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "P = #corrupted_portal:planches_du_vide"
+      ],
+      "pattern": [
+        "PP",
+        "PP"
+      ],
+      "name": "Etabli du Vide",
+      "source_path": "data/corrupted_portal/recipe/etabli_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:fibre_depuis_fougere_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:fibre_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:fougere_du_vide"
+      ],
+      "pattern": [],
+      "name": "Fibre du Vide",
+      "source_path": "data/corrupted_portal/recipe/fibre_depuis_fougere_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:fibre_depuis_haute_herbe_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:fibre_du_vide",
+      "quantity": 2,
+      "inputs": [
+        "corrupted_portal:haute_herbe_du_vide"
+      ],
+      "pattern": [],
+      "name": "Fibre du Vide",
+      "source_path": "data/corrupted_portal/recipe/fibre_depuis_haute_herbe_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:fibre_depuis_herbe_aquatique_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:fibre_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:herbe_aquatique_du_vide"
+      ],
+      "pattern": [],
+      "name": "Fibre du Vide",
+      "source_path": "data/corrupted_portal/recipe/fibre_depuis_herbe_aquatique_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:fibre_depuis_liane_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:fibre_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:liane_du_vide"
+      ],
+      "pattern": [],
+      "name": "Fibre du Vide",
+      "source_path": "data/corrupted_portal/recipe/fibre_depuis_liane_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:fibre_depuis_litiere_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:fibre_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:litiere_du_vide"
+      ],
+      "pattern": [],
+      "name": "Fibre du Vide",
+      "source_path": "data/corrupted_portal/recipe/fibre_depuis_litiere_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:fibre_depuis_nenuphar_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:fibre_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:nenuphar_du_vide"
+      ],
+      "pattern": [],
+      "name": "Fibre du Vide",
+      "source_path": "data/corrupted_portal/recipe/fibre_depuis_nenuphar_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:fibre_depuis_racines_suspendues_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:fibre_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:racines_suspendues_du_vide"
+      ],
+      "pattern": [],
+      "name": "Fibre du Vide",
+      "source_path": "data/corrupted_portal/recipe/fibre_depuis_racines_suspendues_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:fiole_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:fiole_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "minecraft:glass_bottle",
+        "corrupted_portal:perle_du_vide",
+        "corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [],
+      "name": "Void Flask",
+      "source_path": "data/corrupted_portal/recipe/fiole_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:fleche_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:fleche_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "B = corrupted_portal:baton_du_vide",
+        "F = minecraft:feather",
+        "P = corrupted_portal:pepite_du_vide"
+      ],
+      "pattern": [
+        "P",
+        "B",
+        "F"
+      ],
+      "name": "Void Arrow",
+      "source_path": "data/corrupted_portal/recipe/fleche_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:hache_en_bois_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:hache_en_bois_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "P = #corrupted_portal:planches_du_vide",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PP",
+        "PS",
+        " S"
+      ],
+      "name": "Hache en bois du Vide",
+      "source_path": "data/corrupted_portal/recipe/hache_en_bois_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:houe_en_bois_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:houe_en_bois_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "P = #corrupted_portal:planches_du_vide",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PP",
+        " S",
+        " S"
+      ],
+      "name": "Houe en bois du Vide",
+      "source_path": "data/corrupted_portal/recipe/houe_en_bois_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:laine_cyan_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:laine_cyan_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:pigment_cyan_du_vide"
+      ],
+      "pattern": [],
+      "name": "Laine cyan du Vide",
+      "source_path": "data/corrupted_portal/recipe/laine_cyan_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:laine_lilas_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:laine_lilas_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:pigment_lilas_du_vide"
+      ],
+      "pattern": [],
+      "name": "Laine lilas du Vide",
+      "source_path": "data/corrupted_portal/recipe/laine_lilas_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:laine_magenta_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:laine_magenta_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:pigment_magenta_du_vide"
+      ],
+      "pattern": [],
+      "name": "Laine magenta du Vide",
+      "source_path": "data/corrupted_portal/recipe/laine_magenta_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:laine_noir_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:laine_noir_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:pigment_noir_du_vide"
+      ],
+      "pattern": [],
+      "name": "Laine noir du Vide",
+      "source_path": "data/corrupted_portal/recipe/laine_noir_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:laine_violet_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:laine_violet_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:fibre_du_vide",
+        "corrupted_portal:pigment_violet_du_vide"
+      ],
+      "pattern": [],
+      "name": "Laine violet du Vide",
+      "source_path": "data/corrupted_portal/recipe/laine_violet_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:laminaire_depuis_bloc_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:laminaire_sechee_du_vide",
+      "quantity": 9,
+      "inputs": [
+        "corrupted_portal:bloc_de_laminaire_sechee_du_vide"
+      ],
+      "pattern": [],
+      "name": "Laminaire sechee du Vide",
+      "source_path": "data/corrupted_portal/recipe/laminaire_depuis_bloc_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:laminaire_sechee_du_vide",
+      "type": "smelting",
+      "result": "corrupted_portal:laminaire_sechee_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : corrupted_portal:laminaire_du_vide"
+      ],
+      "pattern": [],
+      "name": "Laminaire sechee du Vide",
+      "source_path": "data/corrupted_portal/recipe/laminaire_sechee_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:laminaire_sechee_du_vide_feu",
+      "type": "campfire_cooking",
+      "result": "corrupted_portal:laminaire_sechee_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : corrupted_portal:laminaire_du_vide"
+      ],
+      "pattern": [],
+      "name": "Laminaire sechee du Vide",
+      "source_path": "data/corrupted_portal/recipe/laminaire_sechee_du_vide_feu.json"
+    },
+    {
+      "id": "corrupted_portal:laminaire_sechee_du_vide_fumoir",
+      "type": "smoking",
+      "result": "corrupted_portal:laminaire_sechee_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : corrupted_portal:laminaire_du_vide"
+      ],
+      "pattern": [],
+      "name": "Laminaire sechee du Vide",
+      "source_path": "data/corrupted_portal/recipe/laminaire_sechee_du_vide_fumoir.json"
+    },
+    {
+      "id": "corrupted_portal:lanterne_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:lanterne_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "N = corrupted_portal:pepite_du_vide",
+        "T = corrupted_portal:torche_du_vide"
+      ],
+      "pattern": [
+        "NNN",
+        "NTN",
+        "NNN"
+      ],
+      "name": "Void Lantern",
+      "source_path": "data/corrupted_portal/recipe/lanterne_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:lingot_des_failles_from_bloc_des_failles",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:lingot_des_failles",
+      "quantity": 9,
+      "inputs": [
+        "corrupted_portal:bloc_des_failles"
+      ],
+      "pattern": [],
+      "name": "Rift Ingot",
+      "source_path": "data/corrupted_portal/recipe/lingot_des_failles_from_bloc_des_failles.json"
+    },
+    {
+      "id": "corrupted_portal:lingot_des_failles_from_smelting_vide_brut",
+      "type": "smelting",
+      "result": "corrupted_portal:lingot_des_failles",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : corrupted_portal:vide_brut"
+      ],
+      "pattern": [],
+      "name": "Rift Ingot",
+      "source_path": "data/corrupted_portal/recipe/lingot_des_failles_from_smelting_vide_brut.json"
+    },
+    {
+      "id": "corrupted_portal:lingot_des_pepites_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:lingot_des_failles",
+      "quantity": 1,
+      "inputs": [
+        "N = corrupted_portal:pepite_du_vide"
+      ],
+      "pattern": [
+        "NNN",
+        "NNN",
+        "NNN"
+      ],
+      "name": "Rift Ingot",
+      "source_path": "data/corrupted_portal/recipe/lingot_des_pepites_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_axe_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_axe",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_axe",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Axe",
+      "source_path": "data/corrupted_portal/recipe/netherite_axe_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_boots_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_boots",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_boots",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Boots",
+      "source_path": "data/corrupted_portal/recipe/netherite_boots_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_bow_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_bow",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_bow",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Bow",
+      "source_path": "data/corrupted_portal/recipe/netherite_bow_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_chestplate_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_chestplate",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_chestplate",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Chestplate",
+      "source_path": "data/corrupted_portal/recipe/netherite_chestplate_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_crossbow_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_crossbow",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_crossbow",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Crossbow",
+      "source_path": "data/corrupted_portal/recipe/netherite_crossbow_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_helmet_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_helmet",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_helmet",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Helmet",
+      "source_path": "data/corrupted_portal/recipe/netherite_helmet_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_hoe_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_hoe",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_hoe",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Hoe",
+      "source_path": "data/corrupted_portal/recipe/netherite_hoe_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_leggings_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_leggings",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_leggings",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Leggings",
+      "source_path": "data/corrupted_portal/recipe/netherite_leggings_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_pickaxe_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_pickaxe",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_pickaxe",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Pickaxe",
+      "source_path": "data/corrupted_portal/recipe/netherite_pickaxe_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_shield_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_shield",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_shield",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Shield",
+      "source_path": "data/corrupted_portal/recipe/netherite_shield_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_shovel_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_shovel",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_shovel",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Shovel",
+      "source_path": "data/corrupted_portal/recipe/netherite_shovel_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:netherite_sword_from_rift_smithing",
+      "type": "smithing_transform",
+      "result": "corrupted_portal:netherite_rift_sword",
+      "quantity": 1,
+      "inputs": [
+        "base : corrupted_portal:rift_sword",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : #minecraft:netherite_tool_materials"
+      ],
+      "pattern": [],
+      "name": "Netherite Rift Sword",
+      "source_path": "data/corrupted_portal/recipe/netherite_sword_from_rift_smithing.json"
+    },
+    {
+      "id": "corrupted_portal:obsidienne_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:obsidienne_du_vide",
+      "quantity": 8,
+      "inputs": [
+        "A = minecraft:amethyst_shard",
+        "O = minecraft:obsidian"
+      ],
+      "pattern": [
+        "OOO",
+        "OAO",
+        "OOO"
+      ],
+      "name": "Void Obsidian",
+      "source_path": "data/corrupted_portal/recipe/obsidienne_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:pain_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:pain_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "W = corrupted_portal:ble_du_vide"
+      ],
+      "pattern": [
+        "WWW"
+      ],
+      "name": "Pain du Vide",
+      "source_path": "data/corrupted_portal/recipe/pain_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:papier_de_canne_du_vide",
+      "type": "crafting_shaped",
+      "result": "minecraft:paper",
+      "quantity": 3,
+      "inputs": [
+        "C = corrupted_portal:canne_du_vide"
+      ],
+      "pattern": [
+        "CCC"
+      ],
+      "name": "Paper",
+      "source_path": "data/corrupted_portal/recipe/papier_de_canne_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:parchemin_de_retour",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:parchemin_de_retour",
+      "quantity": 1,
+      "inputs": [
+        "P = minecraft:paper",
+        "S = minecraft:sugar"
+      ],
+      "pattern": [
+        "PPP",
+        " S "
+      ],
+      "name": "Return Scroll",
+      "source_path": "data/corrupted_portal/recipe/parchemin_de_retour.json"
+    },
+    {
+      "id": "corrupted_portal:pelle_en_bois_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:pelle_en_bois_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "P = #corrupted_portal:planches_du_vide",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "P",
+        "S",
+        "S"
+      ],
+      "name": "Pelle en bois du Vide",
+      "source_path": "data/corrupted_portal/recipe/pelle_en_bois_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:pepite_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:pepite_du_vide",
+      "quantity": 9,
+      "inputs": [
+        "corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [],
+      "name": "Void Nugget",
+      "source_path": "data/corrupted_portal/recipe/pepite_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:perle_du_vide_eveillee",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:perle_du_vide_eveillee",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:perle_du_vide",
+        "corrupted_portal:lingot_des_failles",
+        "minecraft:gold_ingot"
+      ],
+      "pattern": [],
+      "name": "Awakened Void Pearl",
+      "source_path": "data/corrupted_portal/recipe/perle_du_vide_eveillee.json"
+    },
+    {
+      "id": "corrupted_portal:pierre_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:pierre_du_vide",
+      "quantity": 8,
+      "inputs": [
+        "A = minecraft:amethyst_shard",
+        "O = minecraft:polished_blackstone"
+      ],
+      "pattern": [
+        "OOO",
+        "OAO",
+        "OOO"
+      ],
+      "name": "Void Stone",
+      "source_path": "data/corrupted_portal/recipe/pierre_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:pigment_de_cactus_du_vide",
+      "type": "smelting",
+      "result": "corrupted_portal:pigment_violet_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : corrupted_portal:cactus_du_vide"
+      ],
+      "pattern": [],
+      "name": "Pigment violet du Vide",
+      "source_path": "data/corrupted_portal/recipe/pigment_de_cactus_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:pioche_en_bois_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:pioche_en_bois_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "P = #corrupted_portal:planches_du_vide",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "PPP",
+        " S ",
+        " S "
+      ],
+      "name": "Pioche en bois du Vide",
+      "source_path": "data/corrupted_portal/recipe/pioche_en_bois_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:planches_d_acacia_dechire",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_d_acacia_dechire",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_d_acacia_dechire"
+      ],
+      "pattern": [],
+      "name": "Planches d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/planches_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:planches_d_acacia_dechire_depuis_bois",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_d_acacia_dechire",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_d_acacia_dechire"
+      ],
+      "pattern": [],
+      "name": "Planches d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/planches_d_acacia_dechire_depuis_bois.json"
+    },
+    {
+      "id": "corrupted_portal:planches_d_acacia_dechire_depuis_bois_ecorce",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_d_acacia_dechire",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_ecorce_d_acacia_dechire"
+      ],
+      "pattern": [],
+      "name": "Planches d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/planches_d_acacia_dechire_depuis_bois_ecorce.json"
+    },
+    {
+      "id": "corrupted_portal:planches_d_acacia_dechire_depuis_buche_ecorcee",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_d_acacia_dechire",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_ecorcee_d_acacia_dechire"
+      ],
+      "pattern": [],
+      "name": "Planches d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/planches_d_acacia_dechire_depuis_buche_ecorcee.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_bambou_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_du_vide",
+      "quantity": 2,
+      "inputs": [
+        "corrupted_portal:bloc_de_bambou_du_vide"
+      ],
+      "pattern": [],
+      "name": "Planches du Vide",
+      "source_path": "data/corrupted_portal/recipe/planches_de_bambou_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_bambou_ecorce_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_du_vide",
+      "quantity": 2,
+      "inputs": [
+        "corrupted_portal:bloc_de_bambou_ecorce_du_vide"
+      ],
+      "pattern": [],
+      "name": "Planches du Vide",
+      "source_path": "data/corrupted_portal/recipe/planches_de_bambou_ecorce_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_bouleau_spectral",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_bouleau_spectral",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_de_bouleau_spectral"
+      ],
+      "pattern": [],
+      "name": "Planches de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/planches_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_bouleau_spectral_depuis_bois",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_bouleau_spectral",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_de_bouleau_spectral"
+      ],
+      "pattern": [],
+      "name": "Planches de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/planches_de_bouleau_spectral_depuis_bois.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_bouleau_spectral_depuis_bois_ecorce",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_bouleau_spectral",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_ecorce_de_bouleau_spectral"
+      ],
+      "pattern": [],
+      "name": "Planches de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/planches_de_bouleau_spectral_depuis_bois_ecorce.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_bouleau_spectral_depuis_buche_ecorcee",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_bouleau_spectral",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_ecorcee_de_bouleau_spectral"
+      ],
+      "pattern": [],
+      "name": "Planches de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/planches_de_bouleau_spectral_depuis_buche_ecorcee.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_cerisier_spectral",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_cerisier_spectral",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_de_cerisier_spectral"
+      ],
+      "pattern": [],
+      "name": "Planches de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/planches_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_cerisier_spectral_depuis_bois",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_cerisier_spectral",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_de_cerisier_spectral"
+      ],
+      "pattern": [],
+      "name": "Planches de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/planches_de_cerisier_spectral_depuis_bois.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_cerisier_spectral_depuis_bois_ecorce",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_cerisier_spectral",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_ecorce_de_cerisier_spectral"
+      ],
+      "pattern": [],
+      "name": "Planches de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/planches_de_cerisier_spectral_depuis_bois_ecorce.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_cerisier_spectral_depuis_buche_ecorcee",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_cerisier_spectral",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_ecorcee_de_cerisier_spectral"
+      ],
+      "pattern": [],
+      "name": "Planches de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/planches_de_cerisier_spectral_depuis_buche_ecorcee.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_jungle_abyssale",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_jungle_abyssale",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_de_jungle_abyssale"
+      ],
+      "pattern": [],
+      "name": "Planches de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/planches_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_jungle_abyssale_depuis_bois",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_jungle_abyssale",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_de_jungle_abyssale"
+      ],
+      "pattern": [],
+      "name": "Planches de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/planches_de_jungle_abyssale_depuis_bois.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_jungle_abyssale_depuis_bois_ecorce",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_jungle_abyssale",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_ecorce_de_jungle_abyssale"
+      ],
+      "pattern": [],
+      "name": "Planches de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/planches_de_jungle_abyssale_depuis_bois_ecorce.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_jungle_abyssale_depuis_buche_ecorcee",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_jungle_abyssale",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_ecorcee_de_jungle_abyssale"
+      ],
+      "pattern": [],
+      "name": "Planches de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/planches_de_jungle_abyssale_depuis_buche_ecorcee.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_mangrove_ombre",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_mangrove_ombre",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_de_mangrove_ombre"
+      ],
+      "pattern": [],
+      "name": "Planches de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/planches_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_mangrove_ombre_depuis_bois",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_mangrove_ombre",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_de_mangrove_ombre"
+      ],
+      "pattern": [],
+      "name": "Planches de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/planches_de_mangrove_ombre_depuis_bois.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_mangrove_ombre_depuis_bois_ecorce",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_mangrove_ombre",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_ecorce_de_mangrove_ombre"
+      ],
+      "pattern": [],
+      "name": "Planches de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/planches_de_mangrove_ombre_depuis_bois_ecorce.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_mangrove_ombre_depuis_buche_ecorcee",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_mangrove_ombre",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_ecorcee_de_mangrove_ombre"
+      ],
+      "pattern": [],
+      "name": "Planches de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/planches_de_mangrove_ombre_depuis_buche_ecorcee.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_pin_cendre",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_pin_cendre",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_de_pin_cendre"
+      ],
+      "pattern": [],
+      "name": "Planches de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/planches_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_pin_cendre_depuis_bois",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_pin_cendre",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_de_pin_cendre"
+      ],
+      "pattern": [],
+      "name": "Planches de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/planches_de_pin_cendre_depuis_bois.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_pin_cendre_depuis_bois_ecorce",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_pin_cendre",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_ecorce_de_pin_cendre"
+      ],
+      "pattern": [],
+      "name": "Planches de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/planches_de_pin_cendre_depuis_bois_ecorce.json"
+    },
+    {
+      "id": "corrupted_portal:planches_de_pin_cendre_depuis_buche_ecorcee",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_de_pin_cendre",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_ecorcee_de_pin_cendre"
+      ],
+      "pattern": [],
+      "name": "Planches de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/planches_de_pin_cendre_depuis_buche_ecorcee.json"
+    },
+    {
+      "id": "corrupted_portal:planches_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_du_vide"
+      ],
+      "pattern": [],
+      "name": "Planches du Vide",
+      "source_path": "data/corrupted_portal/recipe/planches_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:planches_du_vide_depuis_bois",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_du_vide"
+      ],
+      "pattern": [],
+      "name": "Planches du Vide",
+      "source_path": "data/corrupted_portal/recipe/planches_du_vide_depuis_bois.json"
+    },
+    {
+      "id": "corrupted_portal:planches_du_vide_depuis_bois_ecorce",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:bois_ecorce_du_vide"
+      ],
+      "pattern": [],
+      "name": "Planches du Vide",
+      "source_path": "data/corrupted_portal/recipe/planches_du_vide_depuis_bois_ecorce.json"
+    },
+    {
+      "id": "corrupted_portal:planches_du_vide_depuis_buche_ecorcee",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:planches_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "corrupted_portal:buche_ecorcee_du_vide"
+      ],
+      "pattern": [],
+      "name": "Planches du Vide",
+      "source_path": "data/corrupted_portal/recipe/planches_du_vide_depuis_buche_ecorcee.json"
+    },
+    {
+      "id": "corrupted_portal:plaque_d_acacia_dechire",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:plaque_d_acacia_dechire",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_d_acacia_dechire"
+      ],
+      "pattern": [
+        "PP"
+      ],
+      "name": "Plaque de pression d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/plaque_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:plaque_de_bouleau_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:plaque_de_bouleau_spectral",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_bouleau_spectral"
+      ],
+      "pattern": [
+        "PP"
+      ],
+      "name": "Plaque de pression de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/plaque_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:plaque_de_cerisier_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:plaque_de_cerisier_spectral",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_cerisier_spectral"
+      ],
+      "pattern": [
+        "PP"
+      ],
+      "name": "Plaque de pression de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/plaque_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:plaque_de_jungle_abyssale",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:plaque_de_jungle_abyssale",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_jungle_abyssale"
+      ],
+      "pattern": [
+        "PP"
+      ],
+      "name": "Plaque de pression de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/plaque_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:plaque_de_mangrove_ombre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:plaque_de_mangrove_ombre",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_mangrove_ombre"
+      ],
+      "pattern": [
+        "PP"
+      ],
+      "name": "Plaque de pression de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/plaque_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:plaque_de_pin_cendre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:plaque_de_pin_cendre",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_pin_cendre"
+      ],
+      "pattern": [
+        "PP"
+      ],
+      "name": "Plaque de pression de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/plaque_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:plaque_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:plaque_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_du_vide"
+      ],
+      "pattern": [
+        "PP"
+      ],
+      "name": "Plaque de pression du Vide",
+      "source_path": "data/corrupted_portal/recipe/plaque_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:pomme_de_terre_cuite_du_vide",
+      "type": "smelting",
+      "result": "corrupted_portal:pomme_de_terre_cuite_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : corrupted_portal:pomme_de_terre_du_vide"
+      ],
+      "pattern": [],
+      "name": "Pomme de terre cuite du Vide",
+      "source_path": "data/corrupted_portal/recipe/pomme_de_terre_cuite_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:pomme_de_terre_cuite_du_vide_feu",
+      "type": "campfire_cooking",
+      "result": "corrupted_portal:pomme_de_terre_cuite_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : corrupted_portal:pomme_de_terre_du_vide"
+      ],
+      "pattern": [],
+      "name": "Pomme de terre cuite du Vide",
+      "source_path": "data/corrupted_portal/recipe/pomme_de_terre_cuite_du_vide_feu.json"
+    },
+    {
+      "id": "corrupted_portal:pomme_de_terre_cuite_du_vide_fumoir",
+      "type": "smoking",
+      "result": "corrupted_portal:pomme_de_terre_cuite_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : corrupted_portal:pomme_de_terre_du_vide"
+      ],
+      "pattern": [],
+      "name": "Pomme de terre cuite du Vide",
+      "source_path": "data/corrupted_portal/recipe/pomme_de_terre_cuite_du_vide_fumoir.json"
+    },
+    {
+      "id": "corrupted_portal:pomme_doree_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:pomme_doree_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "G = minecraft:gold_ingot",
+        "P = corrupted_portal:pomme_du_vide"
+      ],
+      "pattern": [
+        "GGG",
+        "GPG",
+        "GGG"
+      ],
+      "name": "Golden Void Apple",
+      "source_path": "data/corrupted_portal/recipe/pomme_doree_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:porte_d_acacia_dechire",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:porte_d_acacia_dechire",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_d_acacia_dechire"
+      ],
+      "pattern": [
+        "PP",
+        "PP",
+        "PP"
+      ],
+      "name": "Porte d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/porte_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:porte_de_bouleau_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:porte_de_bouleau_spectral",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_bouleau_spectral"
+      ],
+      "pattern": [
+        "PP",
+        "PP",
+        "PP"
+      ],
+      "name": "Porte de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/porte_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:porte_de_cerisier_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:porte_de_cerisier_spectral",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_cerisier_spectral"
+      ],
+      "pattern": [
+        "PP",
+        "PP",
+        "PP"
+      ],
+      "name": "Porte de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/porte_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:porte_de_jungle_abyssale",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:porte_de_jungle_abyssale",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_jungle_abyssale"
+      ],
+      "pattern": [
+        "PP",
+        "PP",
+        "PP"
+      ],
+      "name": "Porte de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/porte_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:porte_de_mangrove_ombre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:porte_de_mangrove_ombre",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_mangrove_ombre"
+      ],
+      "pattern": [
+        "PP",
+        "PP",
+        "PP"
+      ],
+      "name": "Porte de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/porte_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:porte_de_pin_cendre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:porte_de_pin_cendre",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_de_pin_cendre"
+      ],
+      "pattern": [
+        "PP",
+        "PP",
+        "PP"
+      ],
+      "name": "Porte de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/porte_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:porte_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:porte_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "P = corrupted_portal:planches_du_vide"
+      ],
+      "pattern": [
+        "PP",
+        "PP",
+        "PP"
+      ],
+      "name": "Porte du Vide",
+      "source_path": "data/corrupted_portal/recipe/porte_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:portillon_d_acacia_dechire",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:portillon_d_acacia_dechire",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_d_acacia_dechire",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "SPS",
+        "SPS"
+      ],
+      "name": "Portillon d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/portillon_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:portillon_de_bouleau_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:portillon_de_bouleau_spectral",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_bouleau_spectral",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "SPS",
+        "SPS"
+      ],
+      "name": "Portillon de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/portillon_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:portillon_de_cerisier_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:portillon_de_cerisier_spectral",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_cerisier_spectral",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "SPS",
+        "SPS"
+      ],
+      "name": "Portillon de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/portillon_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:portillon_de_jungle_abyssale",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:portillon_de_jungle_abyssale",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_jungle_abyssale",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "SPS",
+        "SPS"
+      ],
+      "name": "Portillon de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/portillon_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:portillon_de_mangrove_ombre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:portillon_de_mangrove_ombre",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_mangrove_ombre",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "SPS",
+        "SPS"
+      ],
+      "name": "Portillon de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/portillon_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:portillon_de_pin_cendre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:portillon_de_pin_cendre",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_de_pin_cendre",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "SPS",
+        "SPS"
+      ],
+      "name": "Portillon de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/portillon_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:portillon_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:portillon_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "P = corrupted_portal:planches_du_vide",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "SPS",
+        "SPS"
+      ],
+      "name": "Portillon du Vide",
+      "source_path": "data/corrupted_portal/recipe/portillon_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:rift_axe",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_axe",
+      "quantity": 1,
+      "inputs": [
+        "# = minecraft:stick",
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "XX",
+        "X#",
+        " #"
+      ],
+      "name": "Rift Axe",
+      "source_path": "data/corrupted_portal/recipe/rift_axe.json"
+    },
+    {
+      "id": "corrupted_portal:rift_boots",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_boots",
+      "quantity": 1,
+      "inputs": [
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "X X",
+        "X X"
+      ],
+      "name": "Rift Boots",
+      "source_path": "data/corrupted_portal/recipe/rift_boots.json"
+    },
+    {
+      "id": "corrupted_portal:rift_bow",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_bow",
+      "quantity": 1,
+      "inputs": [
+        "# = minecraft:stick",
+        "I = corrupted_portal:lingot_des_failles",
+        "X = minecraft:string"
+      ],
+      "pattern": [
+        " #X",
+        "I X",
+        " #X"
+      ],
+      "name": "Rift Bow",
+      "source_path": "data/corrupted_portal/recipe/rift_bow.json"
+    },
+    {
+      "id": "corrupted_portal:rift_chestplate",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_chestplate",
+      "quantity": 1,
+      "inputs": [
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+      ],
+      "name": "Rift Chestplate",
+      "source_path": "data/corrupted_portal/recipe/rift_chestplate.json"
+    },
+    {
+      "id": "corrupted_portal:rift_crossbow",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_crossbow",
+      "quantity": 1,
+      "inputs": [
+        "# = minecraft:stick",
+        "$ = minecraft:tripwire_hook",
+        "& = corrupted_portal:lingot_des_failles",
+        "~ = minecraft:string"
+      ],
+      "pattern": [
+        "#&#",
+        "~$~",
+        " # "
+      ],
+      "name": "Rift Crossbow",
+      "source_path": "data/corrupted_portal/recipe/rift_crossbow.json"
+    },
+    {
+      "id": "corrupted_portal:rift_helmet",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_helmet",
+      "quantity": 1,
+      "inputs": [
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "XXX",
+        "X X"
+      ],
+      "name": "Rift Helmet",
+      "source_path": "data/corrupted_portal/recipe/rift_helmet.json"
+    },
+    {
+      "id": "corrupted_portal:rift_hoe",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_hoe",
+      "quantity": 1,
+      "inputs": [
+        "# = minecraft:stick",
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "XX",
+        " #",
+        " #"
+      ],
+      "name": "Rift Hoe",
+      "source_path": "data/corrupted_portal/recipe/rift_hoe.json"
+    },
+    {
+      "id": "corrupted_portal:rift_leggings",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_leggings",
+      "quantity": 1,
+      "inputs": [
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+      ],
+      "name": "Rift Leggings",
+      "source_path": "data/corrupted_portal/recipe/rift_leggings.json"
+    },
+    {
+      "id": "corrupted_portal:rift_pickaxe",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_pickaxe",
+      "quantity": 1,
+      "inputs": [
+        "# = minecraft:stick",
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "XXX",
+        " # ",
+        " # "
+      ],
+      "name": "Rift Pickaxe",
+      "source_path": "data/corrupted_portal/recipe/rift_pickaxe.json"
+    },
+    {
+      "id": "corrupted_portal:rift_shield",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_shield",
+      "quantity": 1,
+      "inputs": [
+        "W = #minecraft:wooden_tool_materials",
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "WXW",
+        "WWW",
+        " W "
+      ],
+      "name": "Rift Shield",
+      "source_path": "data/corrupted_portal/recipe/rift_shield.json"
+    },
+    {
+      "id": "corrupted_portal:rift_shovel",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_shovel",
+      "quantity": 1,
+      "inputs": [
+        "# = minecraft:stick",
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "X",
+        "#",
+        "#"
+      ],
+      "name": "Rift Shovel",
+      "source_path": "data/corrupted_portal/recipe/rift_shovel.json"
+    },
+    {
+      "id": "corrupted_portal:rift_sword",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:rift_sword",
+      "quantity": 1,
+      "inputs": [
+        "# = minecraft:stick",
+        "X = corrupted_portal:lingot_des_failles"
+      ],
+      "pattern": [
+        "X",
+        "X",
+        "#"
+      ],
+      "name": "Rift Sword",
+      "source_path": "data/corrupted_portal/recipe/rift_sword.json"
+    },
+    {
+      "id": "corrupted_portal:soupe_de_betterave_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:soupe_de_betterave_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:betterave_du_vide",
+        "corrupted_portal:betterave_du_vide",
+        "corrupted_portal:betterave_du_vide",
+        "corrupted_portal:betterave_du_vide",
+        "corrupted_portal:betterave_du_vide",
+        "corrupted_portal:betterave_du_vide",
+        "corrupted_portal:bol_du_vide"
+      ],
+      "pattern": [],
+      "name": "Soupe de betterave du Vide",
+      "source_path": "data/corrupted_portal/recipe/soupe_de_betterave_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:soupe_de_champignons_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:soupe_de_champignons_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:champignon_violet_du_vide",
+        "corrupted_portal:champignon_cyan_du_vide",
+        "corrupted_portal:bol_du_vide"
+      ],
+      "pattern": [],
+      "name": "Soupe de champignons du Vide",
+      "source_path": "data/corrupted_portal/recipe/soupe_de_champignons_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:sucre_de_canne_du_vide",
+      "type": "crafting_shapeless",
+      "result": "minecraft:sugar",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:canne_du_vide"
+      ],
+      "pattern": [],
+      "name": "Sugar",
+      "source_path": "data/corrupted_portal/recipe/sucre_de_canne_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:tapis_cyan_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:tapis_cyan_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "W = corrupted_portal:laine_cyan_du_vide"
+      ],
+      "pattern": [
+        "WW"
+      ],
+      "name": "Tapis cyan du Vide",
+      "source_path": "data/corrupted_portal/recipe/tapis_cyan_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:tapis_de_mousse_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:tapis_de_mousse_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "M = corrupted_portal:mousse_du_vide"
+      ],
+      "pattern": [
+        "MM"
+      ],
+      "name": "Tapis de mousse du Vide",
+      "source_path": "data/corrupted_portal/recipe/tapis_de_mousse_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:tapis_lilas_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:tapis_lilas_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "W = corrupted_portal:laine_lilas_du_vide"
+      ],
+      "pattern": [
+        "WW"
+      ],
+      "name": "Tapis lilas du Vide",
+      "source_path": "data/corrupted_portal/recipe/tapis_lilas_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:tapis_magenta_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:tapis_magenta_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "W = corrupted_portal:laine_magenta_du_vide"
+      ],
+      "pattern": [
+        "WW"
+      ],
+      "name": "Tapis magenta du Vide",
+      "source_path": "data/corrupted_portal/recipe/tapis_magenta_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:tapis_noir_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:tapis_noir_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "W = corrupted_portal:laine_noir_du_vide"
+      ],
+      "pattern": [
+        "WW"
+      ],
+      "name": "Tapis noir du Vide",
+      "source_path": "data/corrupted_portal/recipe/tapis_noir_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:tapis_violet_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:tapis_violet_du_vide",
+      "quantity": 3,
+      "inputs": [
+        "W = corrupted_portal:laine_violet_du_vide"
+      ],
+      "pattern": [
+        "WW"
+      ],
+      "name": "Tapis violet du Vide",
+      "source_path": "data/corrupted_portal/recipe/tapis_violet_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:teinture_allium_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:pigment_magenta_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:allium_du_vide"
+      ],
+      "pattern": [],
+      "name": "Pigment magenta du Vide",
+      "source_path": "data/corrupted_portal/recipe/teinture_allium_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:teinture_baies_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:pigment_magenta_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:baies_du_vide"
+      ],
+      "pattern": [],
+      "name": "Pigment magenta du Vide",
+      "source_path": "data/corrupted_portal/recipe/teinture_baies_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:teinture_herbe_cendreuse",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:pigment_noir_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:herbe_cendreuse"
+      ],
+      "pattern": [],
+      "name": "Pigment noir du Vide",
+      "source_path": "data/corrupted_portal/recipe/teinture_herbe_cendreuse.json"
+    },
+    {
+      "id": "corrupted_portal:teinture_lys_du_neant",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:pigment_violet_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:lys_du_neant"
+      ],
+      "pattern": [],
+      "name": "Pigment violet du Vide",
+      "source_path": "data/corrupted_portal/recipe/teinture_lys_du_neant.json"
+    },
+    {
+      "id": "corrupted_portal:teinture_marguerite_spectrale",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:pigment_lilas_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:marguerite_spectrale"
+      ],
+      "pattern": [],
+      "name": "Pigment lilas du Vide",
+      "source_path": "data/corrupted_portal/recipe/teinture_marguerite_spectrale.json"
+    },
+    {
+      "id": "corrupted_portal:teinture_orchidee_abyssale",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:pigment_cyan_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:orchidee_abyssale"
+      ],
+      "pattern": [],
+      "name": "Pigment cyan du Vide",
+      "source_path": "data/corrupted_portal/recipe/teinture_orchidee_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:teinture_ronce_du_vide",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:pigment_noir_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:ronce_du_vide"
+      ],
+      "pattern": [],
+      "name": "Pigment noir du Vide",
+      "source_path": "data/corrupted_portal/recipe/teinture_ronce_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:teinture_tulipe_du_neant",
+      "type": "crafting_shapeless",
+      "result": "corrupted_portal:pigment_violet_du_vide",
+      "quantity": 1,
+      "inputs": [
+        "corrupted_portal:tulipe_du_neant"
+      ],
+      "pattern": [],
+      "name": "Pigment violet du Vide",
+      "source_path": "data/corrupted_portal/recipe/teinture_tulipe_du_neant.json"
+    },
+    {
+      "id": "corrupted_portal:torche_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:torche_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "S = corrupted_portal:baton_du_vide",
+        "T = corrupted_portal:terre_du_vide"
+      ],
+      "pattern": [
+        "T",
+        "S"
+      ],
+      "name": "Void Torch",
+      "source_path": "data/corrupted_portal/recipe/torche_du_vide.json"
+    },
+    {
+      "id": "corrupted_portal:torche_du_vide_charbon",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:torche_du_vide",
+      "quantity": 4,
+      "inputs": [
+        "C = corrupted_portal:charbon_du_vide",
+        "S = corrupted_portal:baton_du_vide"
+      ],
+      "pattern": [
+        "C",
+        "S"
+      ],
+      "name": "Void Torch",
+      "source_path": "data/corrupted_portal/recipe/torche_du_vide_charbon.json"
+    },
+    {
+      "id": "corrupted_portal:trappe_d_acacia_dechire",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:trappe_d_acacia_dechire",
+      "quantity": 2,
+      "inputs": [
+        "P = corrupted_portal:planches_d_acacia_dechire"
+      ],
+      "pattern": [
+        "PPP",
+        "PPP"
+      ],
+      "name": "Trappe d'acacia dechire",
+      "source_path": "data/corrupted_portal/recipe/trappe_d_acacia_dechire.json"
+    },
+    {
+      "id": "corrupted_portal:trappe_de_bouleau_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:trappe_de_bouleau_spectral",
+      "quantity": 2,
+      "inputs": [
+        "P = corrupted_portal:planches_de_bouleau_spectral"
+      ],
+      "pattern": [
+        "PPP",
+        "PPP"
+      ],
+      "name": "Trappe de bouleau spectral",
+      "source_path": "data/corrupted_portal/recipe/trappe_de_bouleau_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:trappe_de_cerisier_spectral",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:trappe_de_cerisier_spectral",
+      "quantity": 2,
+      "inputs": [
+        "P = corrupted_portal:planches_de_cerisier_spectral"
+      ],
+      "pattern": [
+        "PPP",
+        "PPP"
+      ],
+      "name": "Trappe de cerisier spectral",
+      "source_path": "data/corrupted_portal/recipe/trappe_de_cerisier_spectral.json"
+    },
+    {
+      "id": "corrupted_portal:trappe_de_jungle_abyssale",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:trappe_de_jungle_abyssale",
+      "quantity": 2,
+      "inputs": [
+        "P = corrupted_portal:planches_de_jungle_abyssale"
+      ],
+      "pattern": [
+        "PPP",
+        "PPP"
+      ],
+      "name": "Trappe de jungle abyssale",
+      "source_path": "data/corrupted_portal/recipe/trappe_de_jungle_abyssale.json"
+    },
+    {
+      "id": "corrupted_portal:trappe_de_mangrove_ombre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:trappe_de_mangrove_ombre",
+      "quantity": 2,
+      "inputs": [
+        "P = corrupted_portal:planches_de_mangrove_ombre"
+      ],
+      "pattern": [
+        "PPP",
+        "PPP"
+      ],
+      "name": "Trappe de mangrove de l'ombre",
+      "source_path": "data/corrupted_portal/recipe/trappe_de_mangrove_ombre.json"
+    },
+    {
+      "id": "corrupted_portal:trappe_de_pin_cendre",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:trappe_de_pin_cendre",
+      "quantity": 2,
+      "inputs": [
+        "P = corrupted_portal:planches_de_pin_cendre"
+      ],
+      "pattern": [
+        "PPP",
+        "PPP"
+      ],
+      "name": "Trappe de pin cendre",
+      "source_path": "data/corrupted_portal/recipe/trappe_de_pin_cendre.json"
+    },
+    {
+      "id": "corrupted_portal:trappe_du_vide",
+      "type": "crafting_shaped",
+      "result": "corrupted_portal:trappe_du_vide",
+      "quantity": 2,
+      "inputs": [
+        "P = corrupted_portal:planches_du_vide"
+      ],
+      "pattern": [
+        "PPP",
+        "PPP"
+      ],
+      "name": "Trappe du Vide",
+      "source_path": "data/corrupted_portal/recipe/trappe_du_vide.json"
+    }
+  ]
+}

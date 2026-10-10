@@ -1,0 +1,609 @@
+{
+  "source": "corrupted-portal-0.1.3-mc1.21-universel.jar",
+  "variant": "1.21.11",
+  "textures": [
+    {
+      "source": "assets/corrupted_portal/textures/block/allium_du_vide.png",
+      "asset": "assets/textures/block/allium_du_vide.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "7ffed4f3c1673ee2b0328be00f40a6ea757290f037cd83c2488a74da5c89a768",
+      "id": "block/allium_du_vide"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/ancre_du_vide.png",
+      "asset": "assets/textures/block/ancre_du_vide.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "a5d3a8cab1728be192e58e65d6b3691a3a8a343f0e61640ca6543e5f0514a167",
+      "id": "block/ancre_du_vide"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/ancre_du_vide_bottom.png",
+      "asset": "assets/textures/block/ancre_du_vide_bottom.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "86896772afb5342a54d2440761506bd352ec136cde7602293ac316756f2abc73",
+      "id": "block/ancre_du_vide_bottom"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/ancre_du_vide_side.png",
+      "asset": "assets/textures/block/ancre_du_vide_side.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "147cdf5942c586703fb3408f5b1bf1c974cf14de4657f1b411187806e8a99b38",
+      "id": "block/ancre_du_vide_side"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/ancre_du_vide_top.png",
+      "asset": "assets/textures/block/ancre_du_vide_top.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "a5d3a8cab1728be192e58e65d6b3691a3a8a343f0e61640ca6543e5f0514a167",
+      "id": "block/ancre_du_vide_top"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/bambou_du_vide.png",
+      "asset": "assets/textures/block/bambou_du_vide.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "8fbc45b3f7e2407448eee82f8d511068504284e6fe8f4f6f9f23a6cddae77233",
+      "id": "block/bambou_du_vide"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/bloc_de_bambou_du_vide.png",
+      "asset": "assets/textures/block/bloc_de_bambou_du_vide.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "074aa3f524178e9fb704e279f8c6a00ffb0f68818fdf3829c277234e70b6b25d",
+      "id": "block/bloc_de_bambou_du_vide"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/bloc_de_bambou_du_vide_top.png",
+      "asset": "assets/textures/block/bloc_de_bambou_du_vide_top.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "df268b51fe85d3942f5d0fb30f3887d15ffef2a63e1b5a7ccdd7220f68dae393",
+      "id": "block/bloc_de_bambou_du_vide_top"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/bloc_de_bambou_ecorce_du_vide.png",
+      "asset": "assets/textures/block/bloc_de_bambou_ecorce_du_vide.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "af22e396f60029a6a0b6baf06d85462bfefd247031f22cc2d6894566f5b67804",
+      "id": "block/bloc_de_bambou_ecorce_du_vide"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/bloc_de_bambou_ecorce_du_vide_top.png",
+      "asset": "assets/textures/block/bloc_de_bambou_ecorce_du_vide_top.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "df268b51fe85d3942f5d0fb30f3887d15ffef2a63e1b5a7ccdd7220f68dae393",
+      "id": "block/bloc_de_bambou_ecorce_du_vide_top"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/bloc_de_laminaire_sechee_du_vide.png",
+      "asset": "assets/textures/block/bloc_de_laminaire_sechee_du_vide.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "14afd13074ca101fbe51ee9be3060e8847efebc8a0c018b23f955b4834b777c1",
+      "id": "block/bloc_de_laminaire_sechee_du_vide"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/bloc_des_failles.png",
+      "asset": "assets/textures/block/bloc_des_failles.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "2c96cc69612a5f95c493b2267408d4638408c49536ae42223f834030a987aaac",
+      "id": "block/bloc_des_failles"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/botte_de_ble_du_vide.png",
+      "asset": "assets/textures/block/botte_de_ble_du_vide.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "b2aae042ef29a77cb406eb2142ade5a805351078781e93da1ea408b5d46c0bba",
+      "id": "block/botte_de_ble_du_vide"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/botte_de_ble_du_vide_top.png",
+      "asset": "assets/textures/block/botte_de_ble_du_vide_top.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "0795319e8aaff31855e9e1f84a4f12ffe87f4642bbc5845f985db4f3ab0d5ae1",
+      "id": "block/botte_de_ble_du_vide_top"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_d_acacia_dechire.png",
+      "asset": "assets/textures/block/buche_d_acacia_dechire.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "ff6d464f2455bb9a4faa18250d17efe0fb9a2153f10e4cf2226447f41312dc65",
+      "id": "block/buche_d_acacia_dechire"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_d_acacia_dechire_top.png",
+      "asset": "assets/textures/block/buche_d_acacia_dechire_top.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "6977fcf6a3ecbdc12ff387cb939374939da6bc6798d187421e0c8525cd50513b",
+      "id": "block/buche_d_acacia_dechire_top"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_de_bouleau_spectral.png",
+      "asset": "assets/textures/block/buche_de_bouleau_spectral.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "9a53091c72df6726381eb9ab20283a4ff8f0638c405fb10e25fe172e40a79c8f",
+      "id": "block/buche_de_bouleau_spectral"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_de_bouleau_spectral_top.png",
+      "asset": "assets/textures/block/buche_de_bouleau_spectral_top.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "ed32681531b9d7b6a860c7affdda9e2b1929b2c2e5d9aa9008663bbee2ea388c",
+      "id": "block/buche_de_bouleau_spectral_top"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_de_cerisier_spectral.png",
+      "asset": "assets/textures/block/buche_de_cerisier_spectral.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "f9f5ab657f332e3c8a937c180946cf7393bc336541f2b05c34a2e8be1f1898ae",
+      "id": "block/buche_de_cerisier_spectral"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_de_cerisier_spectral_top.png",
+      "asset": "assets/textures/block/buche_de_cerisier_spectral_top.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "3635827b1921033f0027c6ce756374cc9fc8b8ae61185dc11c70fef3f3ae3a28",
+      "id": "block/buche_de_cerisier_spectral_top"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_de_jungle_abyssale.png",
+      "asset": "assets/textures/block/buche_de_jungle_abyssale.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "310484d8cd4ab0151438fc06669894ebc0819c8b459e0079f5a6486782a57706",
+      "id": "block/buche_de_jungle_abyssale"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_de_jungle_abyssale_top.png",
+      "asset": "assets/textures/block/buche_de_jungle_abyssale_top.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "77600209d306462e332fc560db049a0d9955c3e851fe6e6dbec502c3676f784d",
+      "id": "block/buche_de_jungle_abyssale_top"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_de_mangrove_ombre.png",
+      "asset": "assets/textures/block/buche_de_mangrove_ombre.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "65a52000c93fa0e6cdac3c31897b32f6b7bb4d139cc04288b0be96338de76519",
+      "id": "block/buche_de_mangrove_ombre"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/block/buche_de_mangrove_ombre_top.png",
+      "asset": "assets/textures/block/buche_de_mangrove_ombre_top.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "8e5a44b290198aa00669f5ec44fb23021ed7e9519ff88eee440355e75d1064f0",
+      "id": "block/buche_de_mangrove_ombre_top"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_axe.png",
+      "asset": "assets/textures/item/netherite_rift_axe.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "3a89966355b349127814c102dfcc4be5e349c244ae30a21b5c46c19a8040428c",
+      "id": "item/netherite_rift_axe"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_boots.png",
+      "asset": "assets/textures/item/netherite_rift_boots.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "e8826de4d6248dac8d39602db66c56f714a706648254431fac365db6ed00755b",
+      "id": "item/netherite_rift_boots"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_bow.png",
+      "asset": "assets/textures/item/netherite_rift_bow.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "d6e43637605a76a4bbba28a5f8fe7543e9476c6d7e6dd288201353a8f92697c7",
+      "id": "item/netherite_rift_bow"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_bow_pulling_0.png",
+      "asset": "assets/textures/item/netherite_rift_bow_pulling_0.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "ef1252ac635eac9cfad93d38b91df0888afbf822cc0a7d023d143a945df03776",
+      "id": "item/netherite_rift_bow_pulling_0"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_bow_pulling_1.png",
+      "asset": "assets/textures/item/netherite_rift_bow_pulling_1.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "4509c6ca126140b3d04583e9382bc30f1d7b56bdd2b159760f58ffdc536ce529",
+      "id": "item/netherite_rift_bow_pulling_1"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_bow_pulling_2.png",
+      "asset": "assets/textures/item/netherite_rift_bow_pulling_2.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "72752bb34320e17fbd623091fbe6c2af1d5258fb36bb303d36fc111ff6d5dd75",
+      "id": "item/netherite_rift_bow_pulling_2"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_chestplate.png",
+      "asset": "assets/textures/item/netherite_rift_chestplate.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "bd98faa5964a09c1cd8b8cec11ca05ad0298fb4d4bd2ac2298cb8a9245d3d803",
+      "id": "item/netherite_rift_chestplate"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_crossbow.png",
+      "asset": "assets/textures/item/netherite_rift_crossbow.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "10cd3aca19c79298bb1625e8a4745fa51f6334c5ee8b24592e646ca0c1220efa",
+      "id": "item/netherite_rift_crossbow"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_crossbow_arrow.png",
+      "asset": "assets/textures/item/netherite_rift_crossbow_arrow.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "87eaf7255bbeefb50fe1153354a8ce9d989e7434235d9d56869570b06f0f8130",
+      "id": "item/netherite_rift_crossbow_arrow"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_crossbow_firework.png",
+      "asset": "assets/textures/item/netherite_rift_crossbow_firework.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "d60529d65207c1088d531c3ac47c4029d7215bb1d56b519f29584ca0beb60a6c",
+      "id": "item/netherite_rift_crossbow_firework"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_crossbow_pulling_0.png",
+      "asset": "assets/textures/item/netherite_rift_crossbow_pulling_0.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "46cc550c6ed0c01634c2238e3cab4610c9c4efbff316346bb7611aea06c709fc",
+      "id": "item/netherite_rift_crossbow_pulling_0"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_crossbow_pulling_1.png",
+      "asset": "assets/textures/item/netherite_rift_crossbow_pulling_1.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "8f5ff5fda0ee43e0d3df582e735388dea9a4b4a578700c6d52b62820e68aa894",
+      "id": "item/netherite_rift_crossbow_pulling_1"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_crossbow_pulling_2.png",
+      "asset": "assets/textures/item/netherite_rift_crossbow_pulling_2.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "8ce2990eea2f3295f44e331cd1e11b80feab7d38a19c37f26ab36b4971436a04",
+      "id": "item/netherite_rift_crossbow_pulling_2"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_helmet.png",
+      "asset": "assets/textures/item/netherite_rift_helmet.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "4e7d26c8a3481139fe5fda18edf623cabe06128a10b4e6a07632631409bb83ea",
+      "id": "item/netherite_rift_helmet"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_hoe.png",
+      "asset": "assets/textures/item/netherite_rift_hoe.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "08a93a61c40f0f7fb2703c428285684de3acd87ff3e89c527135d7cbbcbfd691",
+      "id": "item/netherite_rift_hoe"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_leggings.png",
+      "asset": "assets/textures/item/netherite_rift_leggings.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "90aa3f6182d3bfa5353f0d0bb2795266318e4778886a00a93ff45d8e11d13f91",
+      "id": "item/netherite_rift_leggings"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_pickaxe.png",
+      "asset": "assets/textures/item/netherite_rift_pickaxe.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "da166a71a4c61053e4308d57e4b7a26a15b39defcd0bdd3ffc7b5b8488f2f1bc",
+      "id": "item/netherite_rift_pickaxe"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_shield.png",
+      "asset": "assets/textures/item/netherite_rift_shield.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "c32760e973d6fc538250e02b442c9c6b37895bb15e67cb152dfbca6e60b6ad03",
+      "id": "item/netherite_rift_shield"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_shovel.png",
+      "asset": "assets/textures/item/netherite_rift_shovel.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "23537172791eee90e2501599c331c4f0f8279e24fac166a2db7182f4b74473d3",
+      "id": "item/netherite_rift_shovel"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/netherite_rift_sword.png",
+      "asset": "assets/textures/item/netherite_rift_sword.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "0d8952bc07f00a95e7406d3832abd6f6e9f05b0a6923405e77969a1a811d109d",
+      "id": "item/netherite_rift_sword"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/rift_axe.png",
+      "asset": "assets/textures/item/rift_axe.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "c6aceabac30da371b2580566f67fe7e3e5146e7840b91a9f5af47963eb0bf61d",
+      "id": "item/rift_axe"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/rift_boots.png",
+      "asset": "assets/textures/item/rift_boots.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "0dd22c661d741abf4affdf0744b4340352d63419456122cfb1aa76e54d42e6ac",
+      "id": "item/rift_boots"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/rift_bow.png",
+      "asset": "assets/textures/item/rift_bow.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "d46e92cc6effc0caa93982cfdb92b22c570cbe241655429068ee8e67c4798d77",
+      "id": "item/rift_bow"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/item/rift_bow_pulling_0.png",
+      "asset": "assets/textures/item/rift_bow_pulling_0.png",
+      "category": "item",
+      "width": 16,
+      "height": 16,
+      "sha256": "4a8229099f6fd85116dbfcd8c2820b9b188f26194a29f91665b792e7307690f1",
+      "id": "item/rift_bow_pulling_0"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/equipment/humanoid/rift.png",
+      "asset": "assets/textures/entity/equipment/humanoid/rift.png",
+      "category": "entity",
+      "width": 64,
+      "height": 32,
+      "sha256": "09311f238682eb804264fb9062d5820f51357e4a785df50d983251e62c2157dd",
+      "id": "entity/equipment/humanoid/rift"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/equipment/humanoid_baby/rift.png",
+      "asset": "assets/textures/entity/equipment/humanoid_baby/rift.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "3856a10f1136bef05cdb0204ee45eb6ceff772bcfd966f1516aa8424694f015e",
+      "id": "entity/equipment/humanoid_baby/rift"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/equipment/humanoid_leggings/rift.png",
+      "asset": "assets/textures/entity/equipment/humanoid_leggings/rift.png",
+      "category": "entity",
+      "width": 64,
+      "height": 32,
+      "sha256": "68a17526d0fd4b99c8d0755992c603a0f80d7e910884e2dd5cdd9a450fcdd230",
+      "id": "entity/equipment/humanoid_leggings/rift"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/fauna/skeleton.png",
+      "asset": "assets/textures/entity/fauna/skeleton.png",
+      "category": "entity",
+      "width": 64,
+      "height": 32,
+      "sha256": "a68dbf797c202fd48730dd6d2dc206e918ce9fa8de8bf8fa951bfbaac189cedd",
+      "id": "entity/fauna/skeleton"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/fauna/spider.png",
+      "asset": "assets/textures/entity/fauna/spider.png",
+      "category": "entity",
+      "width": 64,
+      "height": 32,
+      "sha256": "8825be40a1bb4c4542e165a1da1fcce9a3bf29ac834e43586a3df5c9c0912fcf",
+      "id": "entity/fauna/spider"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/fauna/zombie.png",
+      "asset": "assets/textures/entity/fauna/zombie.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "e2247e346a0f8fc36c27f42542a26b472d37e565dc7b85d53141e3f07c17f1c0",
+      "id": "entity/fauna/zombie"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/fauna/zombie_baby.png",
+      "asset": "assets/textures/entity/fauna/zombie_baby.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "3edda5bd357065353f170388b2276c9bba98a9a491e6684701032b0352107800",
+      "id": "entity/fauna/zombie_baby"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/projectiles/charge_vide.png",
+      "asset": "assets/textures/entity/projectiles/charge_vide.png",
+      "category": "entity",
+      "width": 256,
+      "height": 256,
+      "sha256": "7ca70371a04114b9cd91dc260b83bfae167ff5bfad9df81cef8403f24200e3a7",
+      "id": "entity/projectiles/charge_vide"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_armored/materials.png",
+      "asset": "assets/textures/entity/void_armored/materials.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "10272f5c82f8b17ab48f55b6aeec032a946522edd54d93143fe147caef653238",
+      "id": "entity/void_armored/materials"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_armored/materials_emissive.png",
+      "asset": "assets/textures/entity/void_armored/materials_emissive.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "43f92bc09af4e2af2498ba6d70ba876a43fd73ee2ce710022376a3b016d41ec4",
+      "id": "entity/void_armored/materials_emissive"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_boss.png",
+      "asset": "assets/textures/entity/void_boss.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "914558312e1ceaa9d4a3d2d5aceb7ffb21b26a3d86a9bafb69623c3a1e1646cc",
+      "id": "entity/void_boss"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_familiar.png",
+      "asset": "assets/textures/entity/void_familiar.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "ce8688e8829df98c3b228cf9c71566ed0e249c5ebda55486a4727476db75baae",
+      "id": "entity/void_familiar"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_knight_charger.png",
+      "asset": "assets/textures/entity/void_knight_charger.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "f83bfa4a8dd1a25ec4b40b2999dd4ba4d116734807e0f35ba34e1d32ebd0be29",
+      "id": "entity/void_knight_charger"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_knight_leaper.png",
+      "asset": "assets/textures/entity/void_knight_leaper.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "d1efd8ad7b99b23123b3efe2a8819660b9f3d79cb884961413cf3dd3a2101cbb",
+      "id": "entity/void_knight_leaper"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_walker.png",
+      "asset": "assets/textures/entity/void_walker.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "1913ab42eefcf0172a0a0bbe48a2360cbe655a8722315c14b3bcf2d7794b82c9",
+      "id": "entity/void_walker"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_walker_legion.png",
+      "asset": "assets/textures/entity/void_walker_legion.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "4470bf2bb884efbc97a713481bd5f0691cf0430cb9964a119e753b8729f5a5be",
+      "id": "entity/void_walker_legion"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_walker_smp2.png",
+      "asset": "assets/textures/entity/void_walker_smp2.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "ce8688e8829df98c3b228cf9c71566ed0e249c5ebda55486a4727476db75baae",
+      "id": "entity/void_walker_smp2"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/entity/void_walker_variant.png",
+      "asset": "assets/textures/entity/void_walker_variant.png",
+      "category": "entity",
+      "width": 64,
+      "height": 64,
+      "sha256": "ebce054224c4b4671a1fdf27b4f6639ad0a5a01e35824f5c9a1f88b99e31f12d",
+      "id": "entity/void_walker_variant"
+    },
+    {
+      "source": "assets/corrupted_portal/textures/environment/black_hole.png",
+      "asset": "assets/textures/environment/black_hole.png",
+      "category": "other",
+      "width": 256,
+      "height": 256,
+      "sha256": "b269eeb1a8cf7048e5623ddf223ff51c5bb1d4e28e911bd1fb5fe4771a194bad",
+      "id": "environment/black_hole"
+    }
+  ]
+}

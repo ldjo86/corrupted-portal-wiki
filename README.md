@@ -20,3 +20,23 @@ Le monde du Vide propose des failles, portails, monstres corrompus, équipement 
 - [English overview](docs/English-Overview.md)
 
 Télécharge les fichiers d'installation directement sur CurseForge. Les JAR, ZIP et textures ne sont pas redistribués dans ce wiki.
+
+
+## Ressources réelles extraites des archives
+
+Les fichiers JAR/ZIP du mod ont été inspectés sans être exécutés. Les pages suivantes présentent les recettes JSON, fonctions, traductions, structures et textures effectivement présentes dans la version indiquée.
+
+- [Atlas technique : versions, structures, butin](docs/Atlas-technique.md)
+- [Recettes et crafts du JAR](docs/Recettes-verifiees.md)
+- [Objets, blocs, entités et enchantements](docs/Objets-blocs-entites.md)
+- [Galerie des textures PNG du mod](docs/Textures-originales.md)
+- [Fonctions et règles statiques](docs/Fonctions-analysees.md)
+
+**Référence :** `corrupted-portal-0.1.3-mc1.21-universel.jar`, module `META-INF/jars/corrupted-portal-1.21.11-0.1.3.jar`.
+
+
+### Aperçu des textures originales
+
+<a href="docs/Textures-originales.md"><img src="assets/planche-textures.png" alt="Planche de textures originales extraites du JAR" width="670"></a>
+
+Les fichiers PNG sont extraits du JAR du mod. La planche illustre les ressources brutes, pas l'apparence définitive des blocs et entités dans Minecraft.
