@@ -1,35 +1,25 @@
-# Corrupted Portal: The Void World — Fonctionnement
+# Parcours et mécaniques — Corrupted Portal
 
-Le monde du Vide propose des failles, portails, monstres corrompus, équipement Rift et un compagnon évolutif.
+## 1. Préparer un départ vers le Vide
 
-### 1. Monde du Vide, mini-boss, boss, équipement Rift et compagnon évolutif annoncés
+Équipe-toi et prévois un moyen de rejoindre ta base : certaines failles peuvent déboucher sur une dimension dangereuse **sans fabriquer le portail retour à ta place**. La version étudiée est une livraison locale 0.1.3.
 
-Monde du Vide, mini-boss, boss, équipement Rift et compagnon évolutif annoncés.
+## 2. Distinguer portails et failles
 
-### 2. Dans la build locale 0
+Les portails **construits ou naturels** ont leurs propres règles, dont la gestion du retour ; les failles spontanées sont des passages distincts. [Consulter le guide détaillé](Portails-et-failles.md).
 
-Dans la build locale 0.1.3, portails rectangulaires et ronds avec portails de retour.
+## 3. Explorer de nouveaux lieux
 
-### 3. Les nouvelles failles traversables n'ouvrent pas systématiquement un portail de retour
+Les structures de portails apparaissent dans les nouveaux chunks de l'Overworld. Au-delà des passages, le mod annonce des ruines, de nouveaux matériaux et des rencontres propres au Vide.
 
-Les nouvelles failles traversables n'ouvrent pas systématiquement un portail de retour.
+## 4. Survivre aux nouvelles créatures
 
-### 4. Apparition spontanée tentée toutes les une à deux heures de jeu dans les dimensions occupées
+Mini-boss, boss et faune corrompue sont annoncés par CurseForge. **Le wiki ne dévoile pas leurs apparences** : [lire les nouveautés sans images](Creatures-et-dangers.md).
 
-Apparition spontanée tentée toutes les une à deux heures de jeu dans les dimensions occupées.
+## 5. Fabriquer ses outils
 
-### 5. Une nouvelle faille spontanée peut produire une vague de cinq monstres si l'emplacement le permet
+La compilation locale 0.1.3 contient **198 recettes JSON** (artisanat et améliorations). [Explorer les fabrications exactes](Recettes-verifiees.md) ou [les blocs illustrés](Modeles-3D.md).
 
-Une nouvelle faille spontanée peut produire une vague de cinq monstres si l'emplacement le permet.
+**Vérification :** les JAR internes ont été inspectés, mais un contrôle en jeu reste nécessaire. Ne pas extrapoler automatiquement ces règles à la version publiée sur CurseForge.
 
-### 6. Deux variantes de structures de portail dans les nouveaux chunks de l'Overworld
-
-Deux variantes de structures de portail dans les nouveaux chunks de l'Overworld.
-
-## Points à contrôler
-
-Analyse des JAR universels 0.1.3 réalisée : douze modules MC 1.21 et cinq MC 26. Attention : CurseForge affiche 0.1.1. Complété par le document local de livraison 0.1.3.
-
-Les seuils, recettes, identifiants et comportements non explicitement mentionnés ne sont pas inventés.
-
-[Retour au sommaire](../README.md)
+[Accueil](../README.md)

@@ -1,12 +1,8 @@
-# Galerie des textures extraites — Corrupted Portal
-**Analyse statique d'une archive locale** : les images ci-dessous sont des fichiers PNG originaux extraits du namespace propre au mod. Aucun rendu 3D en jeu n'est garanti par la présence de ces textures.
-Archive de référence : `corrupted-portal-0.1.3-mc1.21-universel.jar` ; module : `META-INF/jars/corrupted-portal-1.21.11-0.1.3.jar` ; variante `1.21.11`.
-Toutes les textures présentes dans le JAR ne sont pas reproduites : sélection de textures illustratives ; les originaux du mod ne sont pas modifiés.
-## Planche d'aperçu en images
+# Blocs, plantes et équipements — galerie de Corrupted Portal
 
-Cette planche rassemble les textures réelles du mod, agrandies avec interpolation au plus proche. Ce ne sont pas des captures de Minecraft ni des rendus de modèles 3D.
+Cette galerie illustre uniquement **les blocs et objets** du JAR de référence. Les textures UV, modèles et images des créatures ne sont volontairement pas publiés, afin de préserver la surprise jusqu'aux photographies choisies par l'auteur sur CurseForge.
 
-[![Planche de textures](../assets/planche-textures.png)](../assets/planche-textures.png)
+Les PNG peuvent être utilisés pour identifier les ressources du jeu, mais pour comprendre l'aspect assemblé d'un bloc, consulte [les modèles 3D des blocs](Modeles-3D.md).
 
 ## Blocs
 | Texture | Nom de fichier | Format PNG |
@@ -62,31 +58,5 @@ Cette planche rassemble les textures réelles du mod, agrandies avec interpolati
 | <a href="../assets/textures/item/rift_boots.png"><img src="../assets/textures/item/rift_boots.png" alt="item/rift boots" width="64"></a> | `item/rift_boots` | 16 × 16 |
 | <a href="../assets/textures/item/rift_bow.png"><img src="../assets/textures/item/rift_bow.png" alt="item/rift bow" width="64"></a> | `item/rift_bow` | 16 × 16 |
 | <a href="../assets/textures/item/rift_bow_pulling_0.png"><img src="../assets/textures/item/rift_bow_pulling_0.png" alt="item/rift bow pulling 0" width="64"></a> | `item/rift_bow_pulling_0` | 16 × 16 |
-## Entités et créatures
-| Texture | Nom de fichier | Format PNG |
-| --- | --- | --- |
-| <a href="../assets/textures/entity/equipment/humanoid/rift.png"><img src="../assets/textures/entity/equipment/humanoid/rift.png" alt="entity/equipment/humanoid/rift" width="64"></a> | `entity/equipment/humanoid/rift` | 64 × 32 |
-| <a href="../assets/textures/entity/equipment/humanoid_baby/rift.png"><img src="../assets/textures/entity/equipment/humanoid_baby/rift.png" alt="entity/equipment/humanoid baby/rift" width="64"></a> | `entity/equipment/humanoid_baby/rift` | 64 × 64 |
-| <a href="../assets/textures/entity/equipment/humanoid_leggings/rift.png"><img src="../assets/textures/entity/equipment/humanoid_leggings/rift.png" alt="entity/equipment/humanoid leggings/rift" width="64"></a> | `entity/equipment/humanoid_leggings/rift` | 64 × 32 |
-| <a href="../assets/textures/entity/fauna/skeleton.png"><img src="../assets/textures/entity/fauna/skeleton.png" alt="entity/fauna/skeleton" width="64"></a> | `entity/fauna/skeleton` | 64 × 32 |
-| <a href="../assets/textures/entity/fauna/spider.png"><img src="../assets/textures/entity/fauna/spider.png" alt="entity/fauna/spider" width="64"></a> | `entity/fauna/spider` | 64 × 32 |
-| <a href="../assets/textures/entity/fauna/zombie.png"><img src="../assets/textures/entity/fauna/zombie.png" alt="entity/fauna/zombie" width="64"></a> | `entity/fauna/zombie` | 64 × 64 |
-| <a href="../assets/textures/entity/fauna/zombie_baby.png"><img src="../assets/textures/entity/fauna/zombie_baby.png" alt="entity/fauna/zombie baby" width="64"></a> | `entity/fauna/zombie_baby` | 64 × 64 |
-| <a href="../assets/textures/entity/projectiles/charge_vide.png"><img src="../assets/textures/entity/projectiles/charge_vide.png" alt="entity/projectiles/charge vide" width="64"></a> | `entity/projectiles/charge_vide` | 256 × 256 |
-| <a href="../assets/textures/entity/void_armored/materials.png"><img src="../assets/textures/entity/void_armored/materials.png" alt="entity/void armored/materials" width="64"></a> | `entity/void_armored/materials` | 128 × 128 |
-| <a href="../assets/textures/entity/void_armored/materials_emissive.png"><img src="../assets/textures/entity/void_armored/materials_emissive.png" alt="entity/void armored/materials emissive" width="64"></a> | `entity/void_armored/materials_emissive` | 128 × 128 |
-| <a href="../assets/textures/entity/void_boss.png"><img src="../assets/textures/entity/void_boss.png" alt="entity/void boss" width="64"></a> | `entity/void_boss` | 64 × 64 |
-| <a href="../assets/textures/entity/void_familiar.png"><img src="../assets/textures/entity/void_familiar.png" alt="entity/void familiar" width="64"></a> | `entity/void_familiar` | 64 × 64 |
-| <a href="../assets/textures/entity/void_knight_charger.png"><img src="../assets/textures/entity/void_knight_charger.png" alt="entity/void knight charger" width="64"></a> | `entity/void_knight_charger` | 64 × 64 |
-| <a href="../assets/textures/entity/void_knight_leaper.png"><img src="../assets/textures/entity/void_knight_leaper.png" alt="entity/void knight leaper" width="64"></a> | `entity/void_knight_leaper` | 64 × 64 |
-| <a href="../assets/textures/entity/void_walker.png"><img src="../assets/textures/entity/void_walker.png" alt="entity/void walker" width="64"></a> | `entity/void_walker` | 64 × 64 |
-| <a href="../assets/textures/entity/void_walker_legion.png"><img src="../assets/textures/entity/void_walker_legion.png" alt="entity/void walker legion" width="64"></a> | `entity/void_walker_legion` | 64 × 64 |
-| <a href="../assets/textures/entity/void_walker_smp2.png"><img src="../assets/textures/entity/void_walker_smp2.png" alt="entity/void walker smp2" width="64"></a> | `entity/void_walker_smp2` | 64 × 64 |
-| <a href="../assets/textures/entity/void_walker_variant.png"><img src="../assets/textures/entity/void_walker_variant.png" alt="entity/void walker variant" width="64"></a> | `entity/void_walker_variant` | 64 × 64 |
-## Autres textures
-| Texture | Nom de fichier | Format PNG |
-| --- | --- | --- |
-| <a href="../assets/textures/environment/black_hole.png"><img src="../assets/textures/environment/black_hole.png" alt="environment/black hole" width="64"></a> | `environment/black_hole` | 256 × 256 |
-## Origine et limites
 
-Ces PNG proviennent uniquement du dossier `assets/corrupted_portal/textures/` du module de référence. Ils ne prouvent ni le rendu final, ni les recettes associées. Les textures de Minecraft vanilla et les bibliothèques tierces sont exclues de la galerie.
+[Accueil du wiki](../README.md) · [Créatures et dangers, sans images](Creatures-et-dangers.md)
